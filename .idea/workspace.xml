@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="29578560-45a0-4403-8414-d90e3936ed0f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Ruby File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WU1idq2s5FvNEKs49iA7E62k7N" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RunManager" selected="Ruby.verhoeff">
+    <configuration name="base64" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="caesar-tax" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/lib" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/lib/base64.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="verhoeff" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="caesar-tax" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/lib" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/lib/verhoeff.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_base64" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
+      <module name="caesar-tax" />
+      <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Ilib:test" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/test_base64.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Ruby.verhoeff" />
+        <item itemvalue="Test::Unit/Shoulda/Minitest.test_base64" />
+        <item itemvalue="Ruby.base64" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="29578560-45a0-4403-8414-d90e3936ed0f" name="Default Changelist" comment="" />
+      <created>1579189487574</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579189487574</updated>
+      <workItem from="1579189489222" duration="10689000" />
+      <workItem from="1579210749563" duration="3941000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="441" y="194" width="473" height="420" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579202990425">
+      <screen x="0" y="34" width="1366" height="734" />
+    </state>
+    <state x="441" y="194" width="473" height="420" key="#com.intellij.fileTypes.FileTypeChooser/0.34.1366.734@0.34.1366.734" timestamp="1579202990425" />
+    <state width="1324" height="149" key="GridCell.Tab.0.bottom" timestamp="1579214797415">
+      <screen x="0" y="34" width="1366" height="734" />
+    </state>
+    <state width="1324" height="149" key="GridCell.Tab.0.bottom/0.34.1366.734@0.34.1366.734" timestamp="1579214797415" />
+    <state width="1324" height="149" key="GridCell.Tab.0.center" timestamp="1579214797415">
+      <screen x="0" y="34" width="1366" height="734" />
+    </state>
+    <state width="1324" height="149" key="GridCell.Tab.0.center/0.34.1366.734@0.34.1366.734" timestamp="1579214797415" />
+    <state width="1324" height="149" key="GridCell.Tab.0.left" timestamp="1579214797415">
+      <screen x="0" y="34" width="1366" height="734" />
+    </state>
+    <state width="1324" height="149" key="GridCell.Tab.0.left/0.34.1366.734@0.34.1366.734" timestamp="1579214797415" />
+    <state width="1324" height="149" key="GridCell.Tab.0.right" timestamp="1579214797415">
+      <screen x="0" y="34" width="1366" height="734" />
+    </state>
+    <state width="1324" height="149" key="GridCell.Tab.0.right/0.34.1366.734@0.34.1366.734" timestamp="1579214797415" />
+    <state width="1324" height="190" key="GridCell.Tab.1.bottom" timestamp="1579212456070">
+      <screen x="0" y="34" width="1366" height="734" />
+    </state>
+    <state width="1324" height="190" key="GridCell.Tab.1.bottom/0.34.1366.734@0.34.1366.734" timestamp="1579212456070" />
+    <state width="1324" height="190" key="GridCell.Tab.1.center" timestamp="1579212456070">
+      <screen x="0" y="34" width="1366" height="734" />
+    </state>
+    <state width="1324" height="190" key="GridCell.Tab.1.center/0.34.1366.734@0.34.1366.734" timestamp="1579212456070" />
+    <state width="1324" height="190" key="GridCell.Tab.1.left" timestamp="1579212456070">
+      <screen x="0" y="34" width="1366" height="734" />
+    </state>
+    <state width="1324" height="190" key="GridCell.Tab.1.left/0.34.1366.734@0.34.1366.734" timestamp="1579212456070" />
+    <state width="1324" height="190" key="GridCell.Tab.1.right" timestamp="1579212456070">
+      <screen x="0" y="34" width="1366" height="734" />
+    </state>
+    <state width="1324" height="190" key="GridCell.Tab.1.right/0.34.1366.734@0.34.1366.734" timestamp="1579212456070" />
+    <state x="336" y="34" width="683" height="734" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1579206895269">
+      <screen x="0" y="34" width="1366" height="734" />
+    </state>
+    <state x="336" y="34" width="683" height="734" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.34.1366.734@0.34.1366.734" timestamp="1579206895269" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1579206077203">
+      <screen x="0" y="34" width="1366" height="734" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.34.1366.734@0.34.1366.734" timestamp="1579206077203" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="RubyRunConfigurationType">
+        <watch expression="@main_matrix[check][@numbers[(actual + 1) % 8]]" language="ruby" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/caesar_tax@base64.rcov" NAME="base64 Coverage Results" MODIFIED="1579204959671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" MODULE_NAME="caesar-tax" />
+    <SUITE FILE_PATH="coverage/caesar_tax@test_base64.rcov" NAME="test_base64 Coverage Results" MODIFIED="1579205969047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="caesar-tax" />
+    <SUITE FILE_PATH="coverage/caesar_tax@verhoeff.rcov" NAME="verhoeff Coverage Results" MODIFIED="1579214797403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" MODULE_NAME="caesar-tax" />
+  </component>
+</project>
