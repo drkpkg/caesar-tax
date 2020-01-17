@@ -1,0 +1,4 @@
+
+module QrGenerator
+
+end

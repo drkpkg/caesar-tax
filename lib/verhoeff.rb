@@ -1,14 +1,14 @@
 module Verhoeff
-  @main_matrix = [[0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
-                  [1, 2, 3, 4, 0, 6, 7, 8, 9, 5],
-                  [2, 3, 4, 0, 1, 7, 8, 9, 5, 6],
-                  [3, 4, 0, 1, 2, 8, 9, 5, 6, 7],
-                  [4, 0, 1, 2, 3, 9, 5, 6, 7, 8],
-                  [5, 9, 8, 7, 6, 0, 4, 3, 2, 1],
-                  [6, 5, 9, 8, 7, 1, 0, 4, 3, 2],
-                  [7, 6, 5, 9, 8, 2, 1, 0, 4, 3],
-                  [8, 7, 6, 5, 9, 3, 2, 1, 0, 4],
-                  [9, 8, 7, 6, 5, 4, 3, 2, 1, 0]]
+  @mult_matrix = [[0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+                 [1, 2, 3, 4, 0, 6, 7, 8, 9, 5],
+                 [2, 3, 4, 0, 1, 7, 8, 9, 5, 6],
+                 [3, 4, 0, 1, 2, 8, 9, 5, 6, 7],
+                 [4, 0, 1, 2, 3, 9, 5, 6, 7, 8],
+                 [5, 9, 8, 7, 6, 0, 4, 3, 2, 1],
+                 [6, 5, 9, 8, 7, 1, 0, 4, 3, 2],
+                 [7, 6, 5, 9, 8, 2, 1, 0, 4, 3],
+                 [8, 7, 6, 5, 9, 3, 2, 1, 0, 4],
+                 [9, 8, 7, 6, 5, 4, 3, 2, 1, 0]]
   @permutations_matrix = [[0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
                           [1, 5, 7, 6, 2, 8, 3, 0, 9, 4],
                           [5, 8, 0, 3, 7, 9, 6, 1, 4, 2],
@@ -20,13 +20,14 @@ module Verhoeff
   @numbers = [0, 4, 3, 2, 1, 5, 6, 7, 8, 9]
 
   # @param [String] word
-  # @return [Integer] result
+  # @return [Integer]
   def self.to_verhoeff(word)
     check = 0
     reverse_number = word.reverse
-    (reverse_number.length - 1).times do |actual|
-      position = @permutations_matrix[(actual + 1) % 8][reverse_number[actual].to_i]
-      check = @main_matrix[check][position]
+    i = 0
+    while i <= (reverse_number.length - 1) do
+      check = @mult_matrix[check][@permutations_matrix[((i + 1) % 8)][reverse_number[i].to_i]]
+      i += 1
     end
     @numbers[check]
   end
