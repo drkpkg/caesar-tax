@@ -1,6 +1,5 @@
 
 class Cases
-  require 'alleged_rc4'
   # Cases file
   # NRO. AUTORIZACION
   # NRO. FACTURA
@@ -13,14 +12,14 @@ class Cases
   # SUMATORIA PRODUCTOS
   # BASE64
   # CODIGO CONTROL
-  def initialize
+
+  def self.data
     @data = []
-    file = File.open('cases.txt')
+    file = File.open(File.join(File.dirname(__FILE__), "cases.txt"))
     file.readlines.each do |line|
       line_array = line.split('|')
       @data.push(line_array[0,line_array.length-1])
     end
+    @data
   end
 end
-
-Cases.new

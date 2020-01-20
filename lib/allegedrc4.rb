@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module AllegedRc4
   # @param [String] message, key
   # @param [String] key
@@ -8,26 +10,26 @@ module AllegedRc4
 
     result = ''
     state = []
-    (0..255).each { |i|
+    (0..255).each do |i|
       state.push i
-    }
+    end
 
-    (0..255).each { |i|
+    (0..255).each do |i|
       index2 = (key[index1].ord + state[i] + index2) % 256
       state[i], state[index2] = swap_val(state[i], state[index2])
       index1 = (index1 + 1) % key.length
-    }
+    end
 
     x = 0
     y = 0
-    (0..message.length-1).each { |i|
+    (0..message.length - 1).each do |i|
       x = (x + 1) % 256
       y = (state[x] + y) % 256
       state[x], state[y] = swap_val(state[x], state[y])
       message_str = message[i].ord ^ state[(state[x] + state[y]) % 256]
       result += '-' + fill_zero(message_str.to_s(16))
-    }
-    result[1, result.length-1].upcase
+    end
+    result[1, result.length - 1].upcase
   end
 
   private
@@ -36,10 +38,11 @@ module AllegedRc4
   # @return [String]
   def self.fill_zero(val)
     return "0#{val}" if val.length == 1
+
     val
   end
 
   def self.swap_val(value_for, value_to)
-    return value_to, value_for
+    [value_to, value_for]
   end
 end
