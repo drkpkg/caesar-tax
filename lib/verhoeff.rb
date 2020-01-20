@@ -31,9 +31,15 @@ module Verhoeff
     end
     @numbers[check]
   end
-end
 
-p Verhoeff.to_verhoeff("12083")
-p Verhoeff.to_verhoeff("0")
-p Verhoeff.to_verhoeff("1810")
-p Verhoeff.to_verhoeff("04")
+  # @param [String] message
+  # @return [Array]
+  def self.plus_one(message)
+    msg_array = message.split('')
+    msg_result = []
+    msg_array.each do |actual_msg|
+      msg_result.push(actual_msg.to_i + 1)
+    end
+    msg_result
+  end
+end
