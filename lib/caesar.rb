@@ -7,6 +7,8 @@ require 'verhoeff'
 require 'qr_code'
 
 class Caesar
+  include QrGenerator
+
   def initialize
     @seed = nil
     @authorization_number = nil
@@ -15,6 +17,12 @@ class Caesar
     @transaction_date = nil
     @amount_total = nil
     @control_code = nil
+    @owner_document = nil
+    @amount_base = nil
+    @amount_discount = 0
+    @amount_rate = 0
+    @amount_taxed = 0
+    @amount_fiscal = 0
   end
 
   # @param [String] seed_str
@@ -64,6 +72,41 @@ class Caesar
     self
   end
 
+  # @param [Float] amount
+  # @return [Caesar]
+  def amount_discount(amount)
+    @amount_discount = amount
+    self
+  end
+
+  # @param [Float] amount
+  # @return [Caesar]
+  def amount_fiscal(amount)
+    @amount_fiscal = amount
+    self
+  end
+
+  # @param [Float] amount
+  # @return [Caesar]
+  def amount_rate(amount)
+    @amount_rate = amount
+    self
+  end
+
+  # @param [Float] amount
+  # @return [Caesar]
+  def amount_taxed(amount)
+    @amount_taxed = amount
+    self
+  end
+
+  # @param [Float] number
+  # @return [Caesar]
+  def owner_document(number)
+    @owner_document = number
+    self
+  end
+
   # @return [String]
   attr_reader :control_code
 
@@ -104,6 +147,10 @@ class Caesar
     total_msg = Base64.to_b64(total_ascii_all)
     @control_code = AllegedRc4.to_alleged(total_msg, key_cipher)
     self
+  end
+
+  def str_format
+    "#{@owner_document}|#{@invoice_number}|#{@authorization_number}|#{@transaction_date}|#{@amount_total}|#{@amount_base}|#{@control_code}|#{@client_document}|#{@amount_rate}|#{@amount_taxed}|#{@amount_fiscal}|#{@amount_discount}"
   end
 
   private
