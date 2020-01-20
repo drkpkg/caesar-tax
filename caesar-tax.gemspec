@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name        = 'caesar-tax'
-  s.version     = '0.1.1'
+  s.version     = '0.1.2'
   s.licenses    = ['MIT']
   s.summary     = 'Gema para impuestos internos de Bolivia'
   s.description = 'Gema para impuestos internos que genera códigos de control!'
