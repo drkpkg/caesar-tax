@@ -2,10 +2,10 @@
 
 Gem::Specification.new do |s|
   s.name        = 'caesar-tax'
-  s.version     = '0.1.0'
+  s.version     = '0.1.1'
   s.licenses    = ['MIT']
   s.summary     = 'Gema para impuestos internos de Bolivia'
-  s.description = 'Much longer explanation of the example!'
+  s.description = 'Gema para impuestos internos que genera códigos de control!'
   s.authors     = ['Felix Daniel Coca Calvimontes']
   s.email       = 'daniel.uremix@gmail.com'
   s.files       = %w[lib/caesar.rb lib/allegedrc4.rb lib/base64.rb lib/qr_code.rb lib/verhoeff.rb]
