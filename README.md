@@ -28,8 +28,3 @@ Yes, the tests are for the 5000 cases from the documentation, all correct.
 ### Contribute
 
 If you have a pr, observations or suggestions, send one, I'm always active
-
-### TODO
-
-- QR generator
-- Export QR to image
