@@ -3,8 +3,10 @@
 # Caesar taxes
 Bring Caesar what is for the Caesar, and for developers the glory
 
-### History
+## NOTE
+This version is for Ruby >=2.6.x. For Ruby 3 compatibility check ruby-3.0-support branch
 
+### History
 The useless Impuestos internos from Bolivia made me do that.
 
 Specification: https://www.impuestos.gob.bo/page/257
@@ -28,8 +30,3 @@ Yes, the tests are for the 5000 cases from the documentation, all correct.
 ### Contribute
 
 If you have a pr, observations or suggestions, send one, I'm always active
-
-### TODO
-
-- QR generator
-- Export QR to image
