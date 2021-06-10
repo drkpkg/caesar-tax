@@ -1,4 +1,6 @@
 [![Gem Version](https://badge.fury.io/rb/caesar-tax.svg)](https://badge.fury.io/rb/caesar-tax)
+![](https://ruby-gem-downloads-badge.herokuapp.com/caesar-tax)
+
 
 # Caesar taxes
 Bring Caesar what is for the Caesar, and for developers the glory
